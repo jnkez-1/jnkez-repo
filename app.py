@@ -33,7 +33,7 @@ JOBS = [
 
 @app.route("/")
 def hello_jnkez():
-  return render_template("home.html", jobs=JOBS, company_name="Jnkez")
+  return render_template("home.html", jobs=JOBS, company_name="Ahmed")
 
 if __name__ == "__main__":
   app.run(host="0.0.0.0", debug=True)
